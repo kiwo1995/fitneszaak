@@ -1,0 +1,218 @@
+#uitloggen {
+  background-color: #00aeff;
+}
+
+#oefeningenknop10 {
+  margin-top: 55px;
+}
+
+#oefeningenknop9 {
+  margin-top: 75px;
+}
+
+#oefeningenknop8 {
+  margin-top: 20px;
+}
+
+#oefeningenknop7 {
+  margin-top: 58px;
+}
+
+#oefeningenknop6 {
+  margin-top: 20px;
+}
+
+#oefeningenknop3 {
+  margin-top: 55px;
+}
+
+#oefeningenknop2 {
+  margin-top: 75px;
+}
+
+#oefeningenknop {
+  margin-top: 40px;
+}
+
+#oefeningencard {
+  background-color: #bdab0edc;
+  color: black;
+  left: 630px;
+  top: 70px;
+}
+
+.list-group-item {
+  background-color: #81750adc;
+}
+
+.youtube {
+  margin-left: 300px;
+  margin-top: 250px;
+}
+
+#socialmedia {
+
+  bottom: 8px;
+  left: 460px;
+  font-size: 18px;
+}
+
+#footertext {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#savebutton {
+  background-color: #00aeff;
+}
+
+#knop {
+  color: rgb(0, 0, 0);
+}
+
+.bekijken {
+  color: white;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(37, 37, 37, 0.82);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #000000c4;
+}
+
+#navbar {
+  background-color: #7bff0000 !important;
+  padding-right: 180px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar1 {
+  background-color: #000000 !important;
+  position: relative;
+  top: 0;
+  width: 100%;
+  color: rgb(255, 0, 0);
+}
+
+
+#cover {
+margin-top: 150px;
+margin-right: 80px;
+}
+
+#passwordveld {
+  margin-top: 125px;
+  margin-right: 80px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.pushupcard {
+  width: 250px;
+  height: auto;
+}
+
+
+section,
+footer,
+nav {
+  display: block;
+}
+
+.wrapper {
+  -webkit-text-size-adjust: none;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4em;
+  padding: 3em;
+  margin-left: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 195, 255);
+}
+
+figure {
+  margin: 0;
+}
+
+.tile {
+  width: 250px;
+  height: 380px;
+  margin: 2em;
+  position: relative;
+  float: left;
+}
+.tile .front,
+.tile .back {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+.tile h3,
+.tile p,
+.tile a {
+  padding: 0 20px;
+}
+.tile img {
+  max-height: 130px;
+}
+.tile .front {
+  background: rgba(190, 178, 0, 0.945);
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+.tile .front h3 {
+  font-size: 2em;
+  color: rgba(146, 139, 40, 0.945);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  margin-top: -1.5em;
+  margin-bottom: 1.5em;
+}
+.tile .back {
+  background: #00394b;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  padding-top: 50px;
+  height: 420px;
+}
+.tile .back h3 {
+  font-size: 1.5em;
+  color: rgb(255, 0, 0);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.tile .back a {
+  display: block;
+  font-size: 1.2em;
+  color: white;
+  border-top: 1px solid #ffcc00;
+  margin: 0 20px;
+  padding: 0.5em 0;
+}
+.tile:hover .front {
+  top: -300px;
+  transform: rotate(2deg);
+}
+
